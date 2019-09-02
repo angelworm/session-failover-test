@@ -29,5 +29,8 @@
     <p>
       <%= request.getSession(true).getId() %>
     </p>
+    <p>
+      <a href="invalidate.jsp">invalidate</a>
+    </p>
   </body>
 </html>
